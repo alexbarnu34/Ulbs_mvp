@@ -11,28 +11,34 @@ const Header = () => {
   return (
     <header className="w-full">
       {/* Bara albă cu logo */}
-      <div className="flex justify-between items-center bg-blue-700 p-4 shadow-md">
+      <div className="flex justify-between items-center bg-[#001b66] p-4 shadow-md">
         <img src={logo} alt="ULBS Logo" className="h-16 md:h-20 object-contain" />
         <nav className="space-x-4 hidden md:flex">
-          <a href="#" className="text-gray-700 hover:text-blue-700">Asigurarea calității</a>
-          <a href="#" className="text-gray-700 hover:text-blue-700"> Documente S.M.</a>
-          <a href="#" className="text-gray-700 hover:text-blue-700">Ranking ULBS</a>
-          <a href="#" className="text-gray-700 hover:text-blue-700">Evaluare CD</a>
+          <a href="#" className="text-white hover:text-blue-700">Asigurarea calității</a>
+          <a href="#" className="text-white hover:text-blue-700"> Documente S.M.</a>
+          <a href="#" className="text-white hover:text-blue-700">Ranking ULBS</a>
+          <a href="#" className="text-white hover:text-blue-700">Evaluare CD</a>
           
           <div
           className="relative"
           onMouseEnter={() => setIsMoreOpen(true)}
           onMouseLeave={() => setIsMoreOpen(false)}
             >
-          <button className="text-gray-700 hover:text-blue-600 transition">
+          <button className="text-white hover:text-blue-700 transition">
             More ▾
           </button>
 
           {isMoreOpen && (
-            <div className="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg p-2 z-50">
-              <a href="#" className="block px-3 py-2 hover:bg-gray-100"> Documente directoare asigurarea calității</a>
-              <a href="#" className="block px-3 py-2 hover:bg-gray-100">Documente directoare control intern managerial</a>
-              <a href="#" className="block px-3 py-2 hover:bg-gray-100"> Proceduri PCUe</a>
+             <div
+               className="absolute right-0 top-full mt-0,75 transform translate-x-[16px] w-64 min-w-[16rem] bg-[#001b66] text-white border-t border-blue-900 shadow-inner animate-slideDown z-50 rounded-lg"
+               onMouseEnter={() => setIsMoreOpen(true)}
+               onMouseLeave={() => setIsMoreOpen(false)}
+             >
+              <div className="flex flex-col md:flex-col justify-center gap-2 p-3">
+                <a href="#" className="block px-4 py-2 rounded-md hover:bg-blue-800 transition"> Documente directoare asigurarea calității</a>
+                <a href="#" className="block px-4 py-2 rounded-md hover:bg-blue-800 transition">Documente directoare control intern managerial</a>
+                <a href="#" className="block px-4 py-2 rounded-md hover:bg-blue-800 transition"> Proceduri PCUe</a>
+              </div>  
             </div>
           )}
         </div>
