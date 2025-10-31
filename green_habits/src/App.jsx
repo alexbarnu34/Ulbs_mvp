@@ -6,15 +6,17 @@ import './App.css'
 */
 
 
-
-
+import React from "react";
+import Header from "./components/Header";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="flex h-screen items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Tailwind funcționează! 🌿
-      </h1>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-1">
+        <Home />
+      </main>
     </div>
   );
 }
