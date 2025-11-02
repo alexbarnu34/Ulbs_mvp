@@ -10,9 +10,8 @@ const Header = () => {
 
   return (
     <header className="w-full">
-      {/* Bara albă cu logo */}
       <div className="flex justify-between items-center bg-[#001b66] p-4 shadow-md">
-        <img src={logo} alt="ULBS Logo" className="h-16 md:h-20 object-contain" />
+       <a href="https://www.ulbsibiu.ro/ro/"> <img src={logo} alt="ULBS Logo" className="h-16 md:h-20 object-contain" /></a>
         <nav className="space-x-4 hidden md:flex">
           <a href="#" className="text-white hover:text-blue-700">Asigurarea calității</a>
           <a href="#" className="text-white hover:text-blue-700"> Documente S.M.</a>
@@ -44,8 +43,6 @@ const Header = () => {
         </div>
         </nav>
       </div>
-
-      {/* Slider imagini sub logo */}
       <ImageSlider images={images} interval={5000} />
     </header>
   );

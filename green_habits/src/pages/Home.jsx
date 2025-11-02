@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   const sections = [
     {
-      title:"Rolul Serviciului Asigurarea Calității",
+      title:<p>Rolul Serviciului Asigurarea Calității</p>,
       content: (
         <ul className="list-disc pl-6 space-y-2">
           <li>sprijină Comisia pentru Evaluarea şi Asigurarea Calităţii în realizarea managementului calităţii, 
@@ -16,7 +16,7 @@ const Home = () => {
       )
     },
     {
-      title:"Structura Sistemului de Management (SM) al ULBS",
+      title:<p>Structura Sistemului de Management (SM) al ULBS</p>,
       content: (
         <ul className="list-disc pl-6 space-y-2">
           <li>Serviciul Asigurarea Calității;</li>
@@ -34,7 +34,7 @@ const Home = () => {
       )
     },
     {
-      title:"Politica în domeniul calității a Universității ”Lucian Blaga” din Sibiu",
+      title:<p>Politica în domeniul calității a Universității ”Lucian Blaga” din Sibiu</p>,
       content: (
         <ul className="list-disc pl-6 space-y-2">
           <li>Viziunea, misiunea, valorile și obiectivele strategice ale ULBS ”Lucian Blaga” din Sibiu</li>
@@ -46,7 +46,7 @@ const Home = () => {
   ];
   
   return (
-    <div className="max-w-6xl mx-auto my-10 p-4">
+    <div className="max-w-6xl mx-auto  p-4">
       <table>
         <tbody>
           {sections.map((data,index) => (
