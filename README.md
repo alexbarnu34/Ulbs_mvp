@@ -1,6 +1,6 @@
 # 🧩 ULBS Quality Assurance Web App (MVP)
 
-Acest proiect reprezintă un MVP (Minimum Viable Product) al unei aplicații web pentru portalul **Asigurării Calității ULBS**, dezvoltat cu **React + Vite** și **TailwindCSS**.  
+Acest proiect reprezintă un MVP (Minimum Viable Product) al unei aplicații web pentru Serviciul **Asigurării Calității ULBS**, dezvoltat cu **React + Vite** și **TailwindCSS**.  
 Include funcționalități interactive precum un meniu „More” cu dropdown animat, un mesaj de tip pop-up de întâmpinare și un design complet responsiv.
 
 ---
