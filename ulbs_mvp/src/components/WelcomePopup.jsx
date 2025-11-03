@@ -15,7 +15,7 @@ const WelcomePopup = () => {
           className="h-16 mx-auto mb-4 object-contain"
         />
         <h2 className="text-xl font-semibold text-white mb-2">
-          Bine ați venit pe pagina Departamentului de Calitate ULBS!
+          Bine ați venit pe pagina Serviciul "Asigurarea Calității" (S.A.C.)!
         </h2>
         <p className="text-white text-sm mb-4">
           Mulțumim că vizitați site-ul nostru. Ne bucurăm să vă avem aici!

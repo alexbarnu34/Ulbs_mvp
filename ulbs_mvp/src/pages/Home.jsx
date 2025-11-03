@@ -21,12 +21,12 @@ const Home = () => {
         <ul className="list-disc pl-6 space-y-2">
           <li>Serviciul Asigurarea Calității;</li>
           <li>Comisia pentru Evaluarea şi Asigurarea Calităţii - la nivelul universității;</li>
-          <li><a href="https://senat.ulbsibiu.ro/wp-content/uploads/CPSAC.pdf">Comisia privind programele de studii și asigurarea calității - la nivelul Senatului;</a></li>
+          <li><a className="hover:text-gray-300" href="https://senat.ulbsibiu.ro/wp-content/uploads/CPSAC.pdf">Comisia privind programele de studii și asigurarea calității - la nivelul Senatului;</a></li>
           <li>Subcomisiile pentru Evaluarea şi Asigurarea Calităţii (SCEAC) – la nivelul facultăților 9 subcomisii;
             <ul className="list-disc pl-6 mt-2 space-y-1">
-              <li>Regulamentul de organizare şi funcţionare al CEAC (SCEAC) ULBS</li>
-              <li>Membrii Comisiei pentru evaluarea și asigurarea calității</li>
-              <li>Model și cerințe raport anual SCEAC - facultăți</li>
+              <li><a className="hover:text-gray-300" href="http://calitate.ulbsibiu.ro/documents/ROFcomisieEACULBS_2013_FINAL.pdf">Regulamentul de organizare şi funcţionare al CEAC (SCEAC) ULBS</a></li>
+              <li><a className="hover:text-gray-300" href="https://www.ulbsibiu.ro/ro/despre/organizare/structura/rec/comisia-de-evaluare-si-asigurare-a-calitatii/">Membrii Comisiei pentru evaluarea și asigurarea calității</a></li>
+              <li><a className="hover:text-gray-300" href="https://accounts.ulbsibiu.ro/myaccount-provider/module.php/core/loginuserpass.php?AuthState=_b603001496d74d6fabc65c41f51fde487729319505%3Ahttps%3A%2F%2Faccounts.ulbsibiu.ro%2Fmyaccount-provider%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Faccounts.ulbsibiu.ro%252Fredirect-service%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Fdefault-sp%26RelayState%3Dhttps%253A%252F%252Faccounts.ulbsibiu.ro%252Fredirect-service%252Fulbssite.php%253Foriginal%253Dhttp%253A%252F%252Fcalitate.ulbsibiu.ro%252Fdoc_SMI%252FRaport%252520SCEAC%2525202017.zip%26cookieTime%3D1762161072">Model și cerințe raport anual SCEAC - facultăți</a></li>
             </ul>
           </li>
           <li>Responsabilii cu asigurarea calității la nivelul tuturor entităților din ULBS (direcții, departamente, servicii, birouri, etc.);</li>
@@ -37,9 +37,9 @@ const Home = () => {
       title:<p>Politica în domeniul calității a Universității ”Lucian Blaga” din Sibiu</p>,
       content: (
         <ul className="list-disc pl-6 space-y-2">
-          <li>Viziunea, misiunea, valorile și obiectivele strategice ale ULBS ”Lucian Blaga” din Sibiu</li>
-          <li>Politica în domeniul calității a Universității ”Lucian Blaga” din Sibiu</li>
-          <li> Asigurarea calității la Universitatea ”Lucian Blaga” din Sibiu.pdf</li>
+          <li><a className="hover:text-gray-300" href="http://calitate.ulbsibiu.ro/documents/Viziune-Misiune-Valori-Obiective%20ULBS.pdf">Viziunea, misiunea, valorile și obiectivele strategice ale ULBS ”Lucian Blaga” din Sibiu</a></li>
+          <li><a className="hover:text-gray-300" href="http://calitate.ulbsibiu.ro/documents/Politica%20%C3%AEn%20domeniul%20calit%C4%83%C8%9Bii%20a%20ULBS.pdf">Politica în domeniul calității a Universității ”Lucian Blaga” din Sibiu</a></li>
+          <li><a className="hover:text-gray-300" href="http://calitate.ulbsibiu.ro/documents/Asigurarea%20calit%C4%83%C8%9Bii%20la%20ULBS.pdf"> Asigurarea calității la Universitatea ”Lucian Blaga” din Sibiu.pdf</a></li>
         </ul>
       )
     }

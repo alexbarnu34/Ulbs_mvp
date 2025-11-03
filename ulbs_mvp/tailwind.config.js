@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-     "./src/**/*.{js,jsx,ts,tsx}", // înlocuiește "green_habits" cu numele real al folderului tău src
+     "./src/**/*.{js,jsx,ts,tsx}", 
   ],
   theme: {
     extend: {
